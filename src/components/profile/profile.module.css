@@ -1,0 +1,37 @@
+.profile{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.profile:hover{
+    cursor: pointer;
+    background-color: #181717;
+border-radius: 50px;
+    
+}
+.profileImage{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+
+}
+.name{
+    font-size: 14px;
+}
+.email {
+    font-weight: 100;
+    color: #adadad;
+    font-size: 14px;
+}
+.moreIcon{
+    margin-right: 10px;
+    font-size: 20px;
+}
