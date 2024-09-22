@@ -1,5 +1,5 @@
 .profile{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,12 +24,16 @@ border-radius: 50px;
 
 }
 .name{
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
 }
 .email {
-    font-weight: 100;
-    color: #adadad;
-    font-size: 14px;
+    font-weight: 400;
+    color: rgb(113, 118, 123);
+    font-size: 15px;
+    line-height: 20px;
+
 }
 .moreIcon{
     margin-right: 10px;
