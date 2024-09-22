@@ -1,9 +1,34 @@
-# React + Vite
+# React Profile Task
+### Description
+This project is a ReactJS implementation of a profile mock-up inspired by Twitter. The goal is to recreate the visual layout and design of the profile page without implementing any functionality. The focus is on matching the mock-up as closely as possible, while allowing for flexibility in the component structure.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Features
+Reusable components for different sections of the profile
 
-Currently, two official plugins are available:
+###  How to Use
+- Clone the repository:
+ ```bash
+    git clone [https://github.com/rahafnasad/ToDoList_JS.git](https://github.com/rahafnasad/MyPortfolio.git)](https://github.com/rahafnasad/Twitter-profile.git)
+```
+- Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+   - Run the application:
+    ```bash
+    npm run dev
+   ```
+    ### Application Screenshot
+Here is a screenshot of the application:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Twitter-profile
+ ![1](https://github.com/user-attachments/assets/9aba7598-caae-451d-b821-e86ea8bd3c0e)
+ 
+![2](https://github.com/user-attachments/assets/ce34b6c9-3731-4649-baf3-537cc57228bd)
+
+
+
+
+
+
+
+
