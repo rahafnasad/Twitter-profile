@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import Sidebar from './components/sidebar/Sidebar'
 import ReactComponent from './components/reactComponent/ReactComponent'
+import LikeAndTrend from './components/likeAndTrend/LikeAndTrend';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,9 @@ function App() {
 <div className="react">
 <ReactComponent className=""/>
 
+</div>
+<div className="like">
+  <LikeAndTrend/>
 </div>
 </div>
 

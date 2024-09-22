@@ -1,0 +1,37 @@
+.trends h5{
+    margin-left: 15px;
+    font-size: 18px;
+}
+.trends {
+    margin-top: 20px;
+    margin-left: 15px;
+border-radius: 10px;
+padding-top: 15px;
+padding-bottom: 1px;
+background-color: rgb(113, 118, 123,0.2);
+}
+.small{
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    padding-left: 15px;
+    line-height: 5px;
+}
+.left{
+    font-size: 16px;
+    padding-left: 15px;
+    line-height: 10px;
+
+
+}
+.right{
+    font-size: 16px;
+    padding-right: 15px;
+    text-align: end;
+    font-weight: 700;
+
+}
+.more{
+    color: rgb(29, 155, 240);
+    margin-left: 10px;
+
+}
