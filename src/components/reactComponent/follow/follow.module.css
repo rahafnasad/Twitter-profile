@@ -1,0 +1,77 @@
+
+
+.follow{
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: 1px solid #3a3939 ;
+
+}
+.follow h5{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.follow ul {
+    list-style: none;
+    padding-top: 5px;
+    margin-left: 10px ;
+    padding-left: 0px;
+}
+.follow ul li {
+}
+.followBy {
+    font-size: 13px;
+    color: rgb(113, 118, 123);
+    font-weight: 600;
+    line-height: 16px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.followBy span{
+    margin-left: 15px;
+}
+.image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.name ,.email{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 0px;
+}
+.email {
+    font-weight: 400;
+    color: rgb(113, 118, 123);
+    line-height: 15px;
+}
+.followBut{
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    height: 35px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.checkIcon{
+    color: rgb(29, 155, 240);
+    margin-left: 4px;
+    font-size: 16px;
+      
+
+}
+.description{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.description{
+    font-size: 15px;
+}
+.more{
+    color: rgb(29, 155, 240);
+    margin-left: 10px;
+
+}

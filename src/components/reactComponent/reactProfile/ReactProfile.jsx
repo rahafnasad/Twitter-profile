@@ -54,7 +54,7 @@ export default function ReactProfile() {
             <HiBadgeCheck className={style.checkIcon} />
             <p className={style.posts}>@reactjs</p>
           </p>
-          <p >The library for web and native user interfaces
+          <p className={style.description}>The library for web and native user interfaces
           </p>
           <div className="d-flex gap-3">
             <div className={style.link}>

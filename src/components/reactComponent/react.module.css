@@ -1,4 +1,12 @@
 .react{
     border-right: 1px solid #3a3939 ;
     min-height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.footer{
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(113, 118, 123);
+    font-weight: 300;
 }

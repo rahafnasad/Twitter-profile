@@ -13,15 +13,19 @@ function App() {
   return (
     
     <div className="Content">
-      <div className="row rowContent">
-        <div className="col-lg-3 sidebar">
-          <Sidebar/>
-        </div>
-        <div className="col-lg-5 react">
-          <ReactComponent/>
-        </div>
+<div className="d-flex rowContent">
+<div className="sidebar">
+<Sidebar />
 
-      </div>
+</div>
+<div className="react">
+<ReactComponent className=""/>
+
+</div>
+</div>
+
+
+    
 
     </div>
   

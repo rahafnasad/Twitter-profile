@@ -1,6 +1,7 @@
 .profile{
     box-sizing: border-box ;
     border-bottom: 1px solid #3a3939 ;
+    overflow: hidden;
 
 }
 .navbar{
@@ -30,7 +31,15 @@
 
 .profileImage{
     position: relative;
+    background-color: aqua;
 }
+.coverImage{
+    width: 100%;
+    padding: 0 !important;
+    margin: 0;
+    overflow: hidden;
+}
+
 .userImage{
     position: absolute;
     bottom: -70px;
@@ -67,6 +76,8 @@ background-color: transparent;
 font-size: 15px;
 line-height: 20px;
 width: 110px;
+color: white;
+padding: 5px ;
 }
 .unFollow{
     border-radius: 50px;
@@ -74,6 +85,8 @@ background-color: rgba(255, 0, 0, 0.1);
 color: red;
 font-size: 15px;
 line-height: 20px;
+padding: 5px ;
+
 width: 110px;}
 .unFollow:hover{
     border: 1px solid rgb(255, 37, 37);
@@ -172,4 +185,12 @@ font-weight: 300;
     cursor: pointer;
     
 
+}
+
+.coverImage{
+    max-width: 100%;
+    height: auto;
+}
+.description{
+    line-height: 5px;
 }
