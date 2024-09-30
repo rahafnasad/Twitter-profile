@@ -22,45 +22,62 @@ export default function Sidebar() {
         </div>
         <ul>
           <li>
-            <GoHome className="me-3" />
-            Home
+            <GoHome className={`me-3 ${style.icon}`} />
+            <span className={style.item}>Home</span>
+            
           </li>
           <li>
             <IoSearchSharp className="me-3" />
-            Explore
+            <span className={style.item}>            Explore
+            </span>
+
           </li>
           <li>
             <IoIosNotificationsOutline className="me-3" />
-            Notifications
+            <span className={style.item}>            Notifications
+            </span>
+
           </li>
           <li>
             <MdOutlineEmail className="me-3" />
-            Messages
+            <span className={style.item}>Messages</span>
+
+            
           </li>
           <li>
             <MdListAlt className="me-3" />
-            Lists
+            <span className={style.item}>            Lists
+            </span>
+
           </li>
           <li>
             <FaRegBookmark className="me-3" />
-            Bookmarks
+            <span className={style.item}>Bookmarks</span>
+
+            
           </li>
           <li>
             <HiOutlineUsers className="me-3" />
-            Communities
+            <span className={style.item}>Communities</span>
+
+            
           </li>
           <li>
             <FaRegUser className="me-3" />
-            Profile
+            <span className={style.item}>            Profile
+            </span>
+
           </li>
           <li>
             <CiCircleMore className="me-3" />
-            More
+            <span className={style.item}>            More
+            </span>
+
           </li>
         </ul>
         <button className={`${style.post} rounded-pill`}>Post</button>
       </div>
-      <Profile />
+      <Profile className={style.item}/>
     </div>
   );
 }

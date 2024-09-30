@@ -49,3 +49,19 @@ padding: 10px;
 
 
 }
+
+
+@media (max-width:830px) {
+   
+    .sidebar{
+        width: 35%;
+    }
+}
+
+@media (max-width:600px) {
+   
+    .sidebar{
+        width: 0%;
+    }
+
+}

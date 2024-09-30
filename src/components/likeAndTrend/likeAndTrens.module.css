@@ -1,0 +1,6 @@
+.parent{
+    position: fixed;
+    min-height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 50px;
+}

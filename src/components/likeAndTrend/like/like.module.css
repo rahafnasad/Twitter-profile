@@ -54,3 +54,9 @@ background-color: rgb(113, 118, 123,0.2);
     margin-left: 10px;
 
 }
+@media (max-width:900px) {
+    .followBut {
+       font-size: 12px;
+       padding: 5px;
+    }
+}

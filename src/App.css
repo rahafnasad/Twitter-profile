@@ -33,3 +33,30 @@ overflow: hidden;
 .like{
     width: 24%;
 }
+
+@media (max-width:830px) {
+    .rowContent{
+        flex-wrap: wrap;
+        
+    }
+    .sidebar{
+        width: 35%;
+    }
+    .react{
+        width:65%;
+    
+    }
+}
+
+@media (max-width:600px) {
+   
+    .sidebar{
+        width: 0%;
+    }
+    
+    .react{
+        width:100%;
+    
+    }
+ 
+}
